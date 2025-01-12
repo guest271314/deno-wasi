@@ -1,10 +1,8 @@
 # WebAssembly System Interface implementation for Deno, Node.js, Bun
 
-**Note: This module has been merged into Deno, further development will take place in the [Deno repository](https://github.com/denoland/deno)**
-
 This package provides an implementation of the [WebAssembly System
 Interface](https://github.com/webassembly/wasi) for the
-[Deno](https://github.com/denoland/deno) TypeScript runtime, [Node.js](https://nodejs.org), [Bun](https://bun.sh/) using Node.js API's.
+[Deno](https://github.com/denoland/deno) TypeScript runtime, [Node.js](https://nodejs.org), [Bun](https://bun.sh/) using Node.js API's (`node:fs`, `node:process`).
 
 # Status
 
