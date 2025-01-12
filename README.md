@@ -8,7 +8,7 @@ Interface](https://github.com/webassembly/wasi) for the
 
 This is a fork and modified work of https://github.com/caspervonb/deno-wasi. Compiled to JavaScript from TypeScript with `deno bundle` (`deno` version 1.46.2). 
 
-Tested with `wasi.js` and WASM compiled from JavaScript using Facebook's [Static Hermes](https://github.com/facebook/hermes/tree/static_h) and [WASI SDK](https://github.com/WebAssembly/wasi-sdk) (see [WASI.md](https://github.com/guest271314/hermes/blob/9d887a72ad0340f129f976d7e058941f9066dd35/doc/WASI.md) for compilation details) using `node` version v24.0.0-nightly20250111ad68d088a3, `deno` version 2.1.5+70c822b, `bun` version 1.1.44.
+Tested with `wasi.js` and WASM compiled from JavaScript using Facebook's [Static Hermes](https://github.com/facebook/hermes/tree/static_h) and [WASI SDK](https://github.com/WebAssembly/wasi-sdk) (see [WASI.md](https://github.com/guest271314/hermes/blob/shermes-wasm/doc/WASI.md)) for compilation details) using `node` version v24.0.0-nightly20250111ad68d088a3, `deno` version 2.1.5+70c822b, `bun` version 1.1.44.
 
 `.github`, `testdata` directories, `mod.ts` (source that was modified to create `wasi.js`) and `test.ts` retained in this branch for historical purposes.
 
